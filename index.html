@@ -31,7 +31,23 @@
 </head>
 
 <body>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1474464659532774',
+      xfbml      : true,
+      version    : 'v2.4'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -140,70 +156,58 @@
             <div class="col-md-4">
                 <div class="row">
 
-                    <div class="col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
                         <h3 class="page-header">Sponsors</h3>
                     </div>
 
-                    <div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 v center">
                         <a href="http://engineering.ubc.ca/eng/home" align="middle">
-                            <img class="img-responsive portfolio-item" src="resources/U8Coyl9P_400x400.png" alt="" style="height: 300px;display: block;margin-left: auto;margin-right: auto; max-width: 300px">
+                            <img class="img-responsive portfolio-item" src="resources/U8Coyl9P_400x400.png" alt="" style="height: 300px;display: block;margin-left: auto;margin-right: auto; max-width: 300px; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
                         <a href="http://marshalladg.com" align="middle">
-                            <img class="img-responsive portfolio-item" src="resources/Marshall_Aerospace_defence_group_conference_ipsa_decembre_01.jpg" alt="" align="middle" style="max-height: 300px;display: block;margin-left: auto;margin-right: auto; max-width: 300px">
+                            <img class="img-responsive portfolio-item" src="resources/Marshall_Aerospace_defence_group_conference_ipsa_decembre_01.jpg" alt="" align="middle" style="max-height: 300px;display: block;margin-left: auto;margin-right: auto; max-width: 300px; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://www.solidworks.com">
-                            <img class="img-responsive portfolio-item" src="resources/SolidWorks_Logo.svg.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width=200px; margin-top: auto; margin-bottom: auto;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://www.solidworks.com" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/SolidWorks_Logo.svg.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px; margin-top: auto; margin-bottom: auto; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://mech.ubc.ca">
-                            <img class="img-responsive portfolio-item" src="resources/UBC-Mechanical-Engineering2.png" alt="" style="max-height: 200px;display: block;margin-left: auto;margin-right: auto; max-width: 200px;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://mech.ubc.ca" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/UBC-Mechanical-Engineering2.png" alt="" style="max-height: 200px;display: block;margin-left: auto;margin-right: auto; max-width: 200px; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://www.fluor.com/canada">
-                            <img class="img-responsive portfolio-item" src="resources/1000px-Logo_FLUOR.svg.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px">
-                        </a>
-                    </div><!--
-                    --><div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://www.bharatenterprises.net/about.html">
-                            <img class="img-responsive portfolio-item" src="resources/unknown.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://www.fluor.com/canada" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/1000px-Logo_FLUOR.svg.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://www.pmhansen.com">
-                            <img class="img-responsive portfolio-item" src="resources/pm_hansen_logo.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width=200px; margin-top: auto; margin-bottom: auto;">
-                        </a>
-                    </div><!--
-                    --><div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="https://www.apeg.bc.ca/Home">
-                            <img class="img-responsive portfolio-item" src="resources/APEG_Horiz_WEB.jpg" alt="" style="max-height: 200px;display: block;margin-left: auto;margin-right: auto; max-width: 200px;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://www.bharatenterprises.net/about.html" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/unknown.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://www.norburnrc.com">
-                            <img class="img-responsive portfolio-item" src="resources/logo.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://www.pmhansen.com" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/pm_hansen_logo.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width:200px; margin-top: auto; margin-bottom: auto; padding-top: 20px; padding-bottom: 20px;">
                         </a>
-                    </div><!--
-                    --><div class="col-sm-4 col-xs-6 col-md-6 vcenter">
-                        <a href="http://www.canadiantire.ca/en.html">
-                            <img class="img-responsive portfolio-item" src="resources/ct_horzw_std_rgb.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="https://www.apeg.bc.ca/Home" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/APEG_Horiz_WEB.jpg" alt="" style="max-height: 200px;display: block;margin-left: auto;margin-right: auto; max-width: 200px; padding-top: 20px; padding-bottom: 20px;">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://www.norburnrc.com" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/logo.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px; padding-top: 20px; padding-bottom: 20px;">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vcenter">
+                        <a href="http://www.canadiantire.ca/en.html" align="middle">
+                            <img class="img-responsive portfolio-item" src="resources/ct_horzw_std_rgb.png" alt="" style="display: block;margin-left: auto;margin-right: auto; max-height: 200px; max-width: 200px; padding-top: 20px; padding-bottom: 20px;">
                         </a>
                     </div>
                 </div>
