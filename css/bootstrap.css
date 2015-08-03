@@ -6632,3 +6632,9 @@ p {
   margin-top: -30px; /*same height as header*/
   visibility: hidden;
 }
+
+.vtop {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+}
