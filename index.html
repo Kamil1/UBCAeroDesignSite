@@ -111,14 +111,15 @@
         </div>
         <div class="row">
             <div class="col-lg-7">
-                <p>UBC AeroDesign was founded in 1992 by a group of engineering students. Every year the team upholds the tradition of designing and building a radio-controlled airplane to attend the collegiate competition organized by the Society of Automotive Engineers (SAE). The SAE Aero Design Series competition challenges university students from around the world to design and build a plane with the purpose of lifting the heaviest payload.
+                <p>UBC AeroDesign is an engineering student team that designs, builds, and flies heavy lift radio-controlled airplanes. Since 1992, the team has been building model aircrafts from scrath to compete in collegiate competitions organized by the Society of Automotive Engineers (SAE). The SAE Aero Design Series competition challenges university students from around the world to design and build a plane with the purpose of lifting the heaviest payload.<br><br>
+                    The two primary purposes of the team are:
                     <ul>
                         <li> To provide a learning environment for students to experiment and experience what it is like to work on a world class engineering challenge in the field of aerospace. </li>
                         <li>To produce the most competitive and innovative designs for international university competitions.</li>
                     </ul>
 
                     UBC AeroDesign has grown into a diverse team composed of talented university students from all disciplines. The team’s passion for all things aerospace and desire to enrich student educational experience has pushed them to success. The team maintains a tradition of excellence: with over thirty teams participating in the SAE competition, the team has placed in the top ten, 20 times in its history.<br><br>
-                    Team members are free to explore their interests and encouraged to share their knowledge and skills with each other. As the team is entirely student led, senior members provide mentorship to new members. Junior members have the opportunity to specialize in areas like airfoils, engine and control systems, fuselage, structures and landing gear. In turn, senior members gain valuable project management skills and experience using the aircraft design process.</p>
+                    Club members are free to explore their interests and encouraged to share their knowledge and skills with each other. As the team is entirely student led, senior members provide mentorship to new members. Junior members have the opportunity to specialize in areas like airfoils, engine and control systems, fuselage, structures and landing gear. In turn, senior members gain valuable project management skills and experience using the aircraft design process.</p>
             </div>
             <div class="col-lg-5">
                 <img class="img-responsive portfolio-item" src="resources/about-plane.jpg" alt="">
@@ -144,7 +145,7 @@
             </div>
             <div class="col-lg-7">
                 <p><b>SAE Aero Design Series</b><br>
-                    The SAE Aero Design Series collegiate competition is intended to give undergraduate and graduate students experience working to solve real world engineering problems. At the root of this competition is a design challenge that UBC AeroDesign solves by performing trade studies and making compromises to reach the design solution that will optimally meet the mission requirement of lifting the heaviest payload, while still adhering to the configuration limitations.<br><br>
+                    The <b><a href="http://students.sae.org/cds/aerodesign/about.htm">SAE Aero Design Series</a></b> collegiate competition is intended to give undergraduate and graduate students experience working to solve real world engineering problems. At the root of this competition is a design challenge that UBC AeroDesign solves by performing trade studies and making compromises to reach the design solution that will optimally meet the mission requirement of lifting the heaviest payload, while still adhering to the configuration limitations.<br><br>
                     UBC AeroDesign competes under <i>Regular Class</i> of the SAE Aero Design Series which is the event that draws the largest participation. In the past, the team has entered both the Eastern and the Western competitions. Each annual competition draws over 70 teams from all over the world and about 35 teams participate in <i>Regular Class</i>.<br><br>
                     The objective of <i>Regular Class</i> is to design an aircraft that can lift as much weight as possible and to accurately predict the lifting capacity of the aircraft.<br><br>
                     The <i>Regular Class</i> design has to follow the given requirements:
@@ -217,10 +218,36 @@
                     <li>Ability to work effectively, meet deadlines and willingness to step up</li>
                 </ul>
             </div>
+            <!-- Contact Form -->
             <div class="col-md-6">
-                <iframe src="https://docs.google.com/forms/d/1bLpLgd7KRFanObY97aJOvEj53IF9otogmiXkyy1z3og/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <h3>Send us a Message</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="20" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
         </div>
+        <!-- /.row -->
         <span class="anchor" id="media"></span>
         <div class="row">
             <div class="col-md-12">
@@ -229,7 +256,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-4">
-                <p><p> We post tons of content on our YouTube channel, and will be updating it frequently with videos of our plane development, tests, and flights when we enter the competition! Check out our channel below to get a glimpse into our design process, test flights, competitions, and more!</p>
+                <p><p> We post content on our YouTube channel, and will be updating it whenever possible with videos of our tests and flights when we enter the competition! Check out our channel below to get a glimpse into our design process, test flights, competitions, and more!</p>
                 <center>
                     <a href="https://www.youtube.com/user/UBCAeroDesign">
                             <i class="fa fa-youtube-square fa-5x" id="youtube" style="padding-top:0.25em; padding-bottom:0.25em;"></i>
@@ -270,7 +297,9 @@
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="554em" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.727963212399!2d-123.24788110000001!3d49.2626019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672c99a4a4037%3A0x49ecb6ceece66f66!2s2275+E+Mall%2C+The+University+of+British+Columbia%2C+Vancouver%2C+BC+V6T+1Z4!5e0!3m2!1sen!2sca!4v1436750277275"></iframe>
+                <center>
+                    <iframe width="100%" height="558em" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.727963212399!2d-123.24788110000001!3d49.2626019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672c99a4a4037%3A0x49ecb6ceece66f66!2s2275+E+Mall%2C+The+University+of+British+Columbia%2C+Vancouver%2C+BC+V6T+1Z4!5e0!3m2!1sen!2sca!4v1436750277275"></iframe>
+            </center>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
