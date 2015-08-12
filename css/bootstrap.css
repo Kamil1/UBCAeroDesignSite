@@ -6621,9 +6621,15 @@ button.close {
 }
 
 p {
-   font-size:; /* Silence is golden; implicity 1em. */
-   line-height: 1.5;
-   font-family: 'Open Sans', sans-serif;
+  font-size:; /* Silence is golden; implicity 1em. */
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-size:; /* Silence is golden; implicity 1em. */
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .anchor{
@@ -6637,4 +6643,22 @@ p {
     display: inline-block;
     vertical-align: top;
     float: none;
+}
+
+#pdfpackage {
+  background-image:url('./../resources/pdf.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 30em;
+  width: 100%;
+}
+
+#pdfpackage:hover {
+  background-image:url('./../resources/pdf-hober.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 30em;
+  width: 100%;
 }
