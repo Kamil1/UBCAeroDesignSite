@@ -6662,3 +6662,39 @@ li {
   height: 30em;
   width: 100%;
 }
+
+#news1 {
+  background-image:url('./../resources/news1.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 40em;
+  width: 100%;
+}
+
+#news1:hover {
+  background-image:url('./../resources/news1-hover.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 40em;
+  width: 100%;
+}
+
+#news2 {
+  background-image:url('./../resources/news1.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 40em;
+  width: 100%;
+}
+
+#news2:hover {
+  background-image:url('./../resources/news1-hover.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 40em;
+  width: 100%;
+}
